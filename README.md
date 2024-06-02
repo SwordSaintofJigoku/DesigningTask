@@ -7,6 +7,8 @@
 5. after cloning locate the project folder
 6 double click the index.html file to open
 
-In this task I chose use raw HTML and CSS than using a framewoks and CSS library because it gives me more freedom to code a complex design than having a default design to override
+
+
+for this assesment which is the design to code task I chose to use raw html and css also javascript. The reason is because I find the task challenging and its going to be much harder with a default design that needs override.
 
 
