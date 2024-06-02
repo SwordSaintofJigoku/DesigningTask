@@ -1,5 +1,5 @@
 (only if needs to be set up locally)
-*online link is available* -- https://github.com/swordsaintofjigoku/news-App
+*online link is available* -- https://swordsaintofjigoku.github.io/DesigningTask/
 1.download sourcetree- you can learn that here https://youtu.be/C6cRSJayS_g
 2 Go to gihub repository there you can see the code tab click then choose the https url
 3, Go to source tree then add new reporsitory(click the cross icon)
