@@ -1,0 +1,918 @@
+@font-face {
+    font-family: 'Noto Sans JP Regular';
+    src: url(fonts/NotoSansJP-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Bold';
+    src: url(fonts/NotoSansJP-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Black';
+    src: url(fonts/NotoSansJP-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Extra-Bold';
+    src: url(fonts/NotoSansJP-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Light';
+    src: url(fonts/NotoSansJP-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Extra-light';
+    src: url(fonts/NotoSansJP-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Medium';
+    src: url(fonts/NotoSansJP-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Semi-bold';
+    src: url(fonts/NotoSansJP-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP ?';
+    src: url(fonts/NotoSansJP-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Thin';
+    src: url(fonts/NotoSansJP-Thin.ttf) format('truetype');
+}
+
+#logo {
+    height: 66px;
+    width: 275px;
+
+}
+
+#log-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-form .container {
+    width: 100%;
+    background-image: url('images/hero-img-bg.jpg');
+    /* background-color: brown; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content {
+    width: 976px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    position: relative;
+}
+
+#log-form .container .content p {
+    color: black;
+    margin: 0;
+}
+
+#intro {
+    font-family: 'Noto Sans JP Black', sans-serif;
+    font-size: 29px;
+}
+
+#add-intro {
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 17px;
+}
+
+.image-overlap {
+    position: relative
+}
+
+#award {
+    position: absolute;
+    top: 6px;
+    left: -1;
+    z-index: 2;
+    height: 192px;
+    width: 235px;
+}
+
+#female-thinking {
+    z-index: 1;
+    left: 88px;
+    top: -42px;
+    height: 359px;
+    width: 492px;
+}
+
+.design {
+    width: 59.22%;
+    padding-top: 30px;
+}
+
+.sign-form {
+    width: 40.78%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    height: 100%;
+    width: calc(100% - 50px);
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin-top: 45px
+}
+
+#text-top {
+    font-family: 'Noto Sans JP Black', sans-serif;
+}
+
+#text-top-next {
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 12px;
+}
+
+.form-container label {
+    font-family: 'Noto Sans JP Bold', sans-serif;
+    font-size: 11px;
+}
+
+.red-text {
+    height: 9px;
+    color: white;
+    font-size: 8px;
+    background-color: red;
+}
+
+.user-input {
+    width: calc(100% - 10px);
+    height: 21px;
+    border-radius: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-content {
+    height: 100%;
+    width: 100%;
+}
+
+.form-content br {
+    height: 10px;
+}
+
+.input-group {
+    margin-bottom: 8px;
+}
+
+#sideways {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sideways #first {
+    width: 50%;
+    margin-right: 4px;
+}
+
+#sideways #second {
+    width: 50%;
+    margin-left: 4px;
+}
+
+.blue-text {
+    height: 9px;
+    color: white;
+    font-size: 8px;
+    background-color: rgb(53, 172, 219);
+}
+
+.user-dropdown {
+    width: calc(100% - 3px);
+    height: 27px;
+    border-radius: 7px;
+    border: 1.8px solid rgba(0, 0, 0, 0.1);
+
+}
+
+#comment {
+    resize: none;
+    border-radius: 7px;
+    border: 1.8px solid rgba(0, 0, 0, 0.1);
+    height: 48px;
+    width: calc(100% - 10px);
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: left;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+    height: 33px;
+    width: 75px;
+    color: white;
+    background-color: rgb(53, 172, 219);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#form-nav {
+    display: none;
+}
+
+#details .container {
+    background: linear-gradient(to bottom right, blue, lightblue);
+    background-size: 100% 100%;
+    height: auto;
+}
+
+.details-content {
+    width: 976px;
+    height: 100%;
+
+
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 26px;
+    font-family: 'Noto Sans JP Semi-bold', sans-serif;
+    color: white;
+}
+
+.right {
+
+    width: 57.5%;
+
+}
+
+.left {
+    /*  */
+    width: 52.5%;
+
+}
+
+.benefits {
+    display: flex;
+    height: 100%;
+}
+
+.computer {
+    margin-left: -5px;
+    /*  */
+}
+
+#computer-image {
+    width: 450px;
+    height: 296.5px;
+    margin-top: 27px;
+}
+
+.description p {
+    color: white;
+    padding-left: 11px;
+}
+
+.right .description {
+    margin: 36px 0 36px 0;
+    padding-left: 27px;
+}
+
+.left .description {
+    /*  */
+    margin: 22px 0 36px 0;
+}
+
+.description-title {
+    font-family: 'Noto Sans JP Semi-bold', sans-serif;
+    font-size: 17px;
+    /*  */
+    margin: 0 0 6px 0;
+}
+
+.description-body {
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 11.5px;
+    /*  */
+    margin: 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* margin-bottom: 36px; */
+}
+
+.box-container #box1 {
+    margin-right: 9px;
+    /* width: 50%; */
+    margin-bottom: 9px;
+    /*  */
+}
+
+.box-container #box2 {
+    margin-left: 9px;
+    /* width: 50%; */
+    margin-bottom: 9px;
+    /*  */
+}
+
+.box-container #box3 {
+    /* width: 50%; */
+    margin-right: 9px;
+    margin-top: 9px;
+    /*  */
+}
+
+.box-container #box4 {
+    /* width: 50%; */
+    margin-left: 9px;
+    margin-top: 9px;
+
+    /*  */
+}
+
+.box {
+    /*  */
+    background-color: white;
+    border-radius: 10px;
+    padding: 9px 14px 19px 14px;
+    height: 120px;
+    width: 217.505px;
+}
+
+#lock,
+#globe,
+#fingerprint,
+#certificate {
+    height: 50px;
+    width: 50px;
+    /*  */
+
+}
+
+#certificate {
+    margin-left: -14px;
+}
+
+#fingerprint {
+    margin-left: -7px;
+
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    /*  */
+}
+
+.box-header .header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+}
+
+.box-header .header-text {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /*  */
+    width: 100%;
+    text-align: right;
+
+}
+
+.box-header p {
+    color: blue;
+    font-size: 14px;
+    font-family: 'Noto Sans JP Semi-bold', sans-serif;
+    margin: 0;
+}
+
+.box-text {
+    /*  */
+    font-size: 11.5px;
+    font-family: 'Noto Sans JP Regular', sans-serif;
+}
+
+.box-text p {
+    margin: 0;
+}
+
+.footer {
+    background-color: darkblue;
+    color: #fff;
+    padding: 15px 150px 15px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+
+}
+
+.footer-left {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.footer-right {
+    text-align: right;
+    padding-left: 30px;
+    /*  */
+}
+
+.footer p {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.modal-form{
+    width: 100%;
+}
+
+/*  */
+
+@media screen and (max-width: 1020px) {
+    .content {
+        width: 750px;
+    }
+
+    #intro {
+        font-size: 23px;
+    }
+
+    #add-intro {
+        font-size: 13.5px;
+    }
+
+    #award {
+        height: 150px;
+        width: 180px;
+    }
+
+    #female-thinking {
+        left: 66px;
+        top: -36px;
+        height: 275px;
+        width: 377px;
+    }
+
+    #text-top {
+        font-size: 12px;
+    }
+
+    #text-top-next {
+        font-size: 8.7px;
+    }
+
+    .form-container label {
+        font-size: 8px;
+    }
+
+    .user-input {
+        height: 18px;
+    }
+
+    .user-dropdown {
+        height: 25px;
+    }
+
+    #comment {
+        height: 46px;
+    }
+
+    .form-container {
+        padding: 20px;
+        width: calc(100% - 40px);
+        margin: 15px 0 15px 0;
+    }
+
+    .submit-button {
+        height: 30px;
+
+    }
+
+
+
+
+    /* DEtaisl================================================ */
+
+    .benefits {
+        display: block;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .computer {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .description {
+        padding: 0;
+    }
+
+    .left .description {
+        margin: 0 0 80px 0;
+    }
+
+    .box-container {
+        justify-content: center;
+    }
+
+    .right .description {
+        margin: 20px 0 50px 0;
+        padding-left: 0;
+    }
+
+    .footer {
+        padding: 15px 100px 15px 100px;
+    }
+
+    #computer-image {
+        margin-top: 1px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    .content {
+        width: 650px;
+
+    }
+
+    .design {
+        width: 56%;
+        padding-top: -30px;
+    }
+
+    .sign-form {
+        width: 44%;
+    }
+
+    #text-top-next {
+        font-size: 8.5px;
+    }
+
+    #intro {
+        font-size: 18px;
+    }
+
+    #add-intro {
+        font-size: 10.5px;
+    }
+
+    #award {
+        width: 145px;
+        height: 121px;
+    }
+
+    #female-thinking {
+        left: 51px;
+        top: -32px;
+        height: 225px;
+        width: 309px;
+    }
+
+    .user-input {
+        height: 16px;
+    }
+
+    .user-dropdown {
+        height: 24px;
+    }
+
+    #comment {
+        height: 44px;
+    }
+
+    .form-container {
+        padding: 15px;
+        width: calc(100% - 30px);
+        margin: 15px 0 15px 0;
+    }
+
+    .form-container label {
+        font-size: 7px;
+    }
+
+    .submit-button {
+        height: 25px;
+
+    }
+
+    #computer-image {
+        margin-top: 1px;
+    }
+
+    .modal{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .sign-form {
+        display: none;
+    }
+
+    .design {
+        width: auto;
+    }
+
+    #intro {
+        font-size: 23px;
+    }
+
+    #add-intro {
+        font-size: 13.5px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-button {
+        display: block;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+        margin: 5px 0;
+    }
+
+    #form-nav {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    #logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        height: 72px;
+        width: 300px;
+    }
+
+    #award {
+        width: 183px;
+        height: 152.5px
+    }
+
+    #female-thinking {
+        left: 66px;
+        top: -36px;
+        height: 281px;
+        width: 386px;
+    }
+
+    #computer-image {
+        margin-top: 1px;
+    }
+
+    .modal-form .form-container{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 545px) {
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 36px; */
+    }
+
+    .box-container #box1 {
+        margin: 0 0 18px 0;
+    }
+
+    .box-container #box2 {
+        margin: 0 0 18px 0;
+    }
+
+    .box-container #box3 {
+        margin: 0 0 18px 0;
+    }
+
+    .box-container #box4 {
+        margin: 0;
+    }
+
+    #computer-image {
+        margin-top: 1px;
+    }
+ 
+
+
+}
+
+
+@media screen and (max-width: 476px) {
+
+    #text-top-next {
+        font-size: 8.5px;
+    }
+
+    #intro {
+        font-size: 18px;
+    }
+
+    #add-intro {
+        font-size: 10.5px;
+    }
+
+    #award {
+        width: 145px;
+        height: 121px;
+    }
+
+    #female-thinking {
+        left: 51px;
+        top: -32px;
+        height: 225px;
+        width: 309px;
+    }
+
+    .header h2 {
+        font-size: 22px;
+    }
+
+    #computer-image {
+        width: 330px;
+        height: 217.43px;
+        margin-top: 1px;
+    }
+
+    .description-body {
+        font-size: 9px;
+    }
+
+    .footer {
+        padding: 15px 50px 15px 50px;
+    }
+
+    .modal-form .form-container{
+        width: 250px;
+        margin: 0;
+    } 
+}
+
+
+@media screen and (max-width: 385px) {
+
+    #intro{
+        font-size: 15px;
+    }
+
+    #add-intro{
+        font-size: 8.5px;
+    }
+
+    #award {
+        height: 97.5px;
+        width: 117px;
+    }
+
+    #female-thinking {
+        left: 42px;
+        top: -29px;
+        height: 195px;
+        width: 267.5px;
+    }
+    .header h2 {
+        font-size: 16px;
+    }
+    
+    #computer-image {
+        width: 330px;
+        height: 197.66px;
+        margin-top: 1px;
+    }
+
+    .description-body {
+        font-size: 8px;
+    }
+
+}
+
+
+
+
+
+
+/* modal css */
+
+  
+  .btn {
+    border-radius: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;  
+  }
+  
+  
+  /* The Modal (background) */
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+  }
+  
+  /* The Close Button */
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
